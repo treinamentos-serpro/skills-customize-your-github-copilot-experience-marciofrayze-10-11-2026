@@ -71,6 +71,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "sqlite-database-apis",
+      "title": "Persistência com SQLite e FastAPI",
+      "description": "Salvando tarefas em um banco de dados SQLite com rotas CRUD no FastAPI",
+      "path": "assignments/sqlite-database-apis",
+      "dueDate": "2026-11-17",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
