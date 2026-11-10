@@ -1,19 +1,42 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Tarefa: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Construa o clássico jogo de adivinhar palavras usando strings, loops, condicionais, seleção aleatória e entrada de dados do usuário em Python.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Seleção de Palavra e Progresso
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie o início do jogo da Forca: escolha uma palavra aleatoriamente de uma lista predefinida e mostre ao jogador o progresso atual, com cada letra ainda não descoberta representada por `_`.
 
-Seu jogo deve:
+#### Requisitos
+O programa completo deve:
+
 - Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+- Exibir o progresso atual no formato `_ _ _`, revelando as letras já adivinhadas
+
+### 🛠️ Palpites e Tentativas
+
+#### Descrição
+Implemente o laço principal do jogo, em que o jogador informa letras e o programa atualiza o progresso e controla as tentativas restantes.
+
+#### Requisitos
+O programa completo deve:
+
+- Aceitar palpites de letras usando `input()`
+- Revelar na tela todas as posições da palavra correspondentes à letra informada
+- Rastrear o número de tentativas incorretas restantes
+
+### 🛠️ Fim de Jogo
+
+#### Descrição
+Defina quando o jogo termina e informe o resultado ao jogador.
+
+#### Requisitos
+O programa completo deve:
+
+- Encerrar quando a palavra for adivinhada completamente ou quando as tentativas se esgotarem
+- Exibir uma mensagem de vitória ou de derrota ao final da partida
